@@ -1,0 +1,21 @@
+# Site settings
+title: Dylan's Adventures in Code
+header-img: img/home-bg.png
+email: dylanito2@gmail.com
+copyright_name: dylanito2
+description: > # this means to ignore newlines until "baseurl:"
+  Placeholder
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  dylanito2
+learn_profile: dylanito2
+email_username: dylanito2@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
